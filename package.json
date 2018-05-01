@@ -7,7 +7,8 @@
   "author": "Shramee <shramee.srivastav@gmail.com>",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://gitlab.com/dashboard/activity/",
+    "serviceURL": "https://gitlab.com/{teamId}",
+    "hasTeamId": true,
     "hasNotificationSound": true
   }
 }
